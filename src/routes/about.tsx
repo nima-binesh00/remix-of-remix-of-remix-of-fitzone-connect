@@ -4,10 +4,10 @@ import { siteData, trainers, history } from "@/data/siteData";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: `About Us - ${siteData.name}` },
-      { name: "description", content: "Learn about our mission, values, and expert trainers" },
-      { property: "og:title", content: `About Us - ${siteData.name}` },
-      { property: "og:description", content: "Learn about our mission, values, and expert trainers" },
+      { title: `درباره ما | ${siteData.name}` },
+      { name: "description", content: "با مأموریت، ارزش‌ها و مربیان حرفه‌ای باشگاه فیت‌زون آشنا شوید" },
+      { property: "og:title", content: `درباره ما | ${siteData.name}` },
+      { property: "og:description", content: "با مأموریت، ارزش‌ها و مربیان حرفه‌ای باشگاه فیت‌زون آشنا شوید" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -18,18 +18,18 @@ export const Route = createFileRoute("/about")({
 const values = [
   {
     icon: "ri-trophy-line",
-    title: "Excellence",
-    description: "We strive for excellence in everything we do, from our facilities to our service",
+    title: "کیفیت",
+    description: "در همه چیز، از امکانات تا خدمات، بهترین کیفیت را دنبال می‌کنیم",
   },
   {
     icon: "ri-hand-heart-line",
-    title: "Community",
-    description: "Building a supportive community where everyone can thrive together",
+    title: "همدلی",
+    description: "ساختن جمعی حامی که همه در کنار هم پیشرفت کنند",
   },
   {
     icon: "ri-focus-3-line",
-    title: "Results",
-    description: "Focused on delivering real, measurable results for every member",
+    title: "نتیجه",
+    description: "تمرکز بر نتایج واقعی و قابل اندازه‌گیری برای هر عضو",
   },
 ];
 
@@ -40,10 +40,10 @@ function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              About {siteData.name}
+              درباره {siteData.name}
             </h1>
             <p className="text-xl text-gray-300">
-              We're dedicated to helping you achieve your fitness goals and live a healthier life
+              هدف ما این است که به اهداف ورزشی‌تان برسید و زندگی سالم‌تری داشته باشید
             </p>
           </div>
         </div>
@@ -52,18 +52,13 @@ function About() {
       <section className="py-20 bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-white mb-8 text-center">Our Mission</h2>
+            <h2 className="text-4xl font-bold text-white mb-8 text-center">مأموریت ما</h2>
             <div className="prose prose-invert max-w-none">
               <p className="text-xl text-gray-300 mb-6">
-                At {siteData.name}, we believe that fitness is not just about physical strength,
-                but about building confidence, discipline, and a positive mindset. Our mission is
-                to create an inclusive community where everyone feels welcome and supported on
-                their fitness journey.
+                در {siteData.name} باور داریم تناسب اندام فقط قدرت بدنی نیست؛ بلکه یعنی اعتمادبه‌نفس، نظم و نگاه مثبت. مأموریت ما ساختن جمعی است که هر کسی در آن احساس خوشامد و حمایت کند.
               </p>
               <p className="text-lg text-gray-400 mb-6">
-                We provide state-of-the-art facilities, expert guidance, and a supportive
-                environment that empowers our members to push their limits and achieve
-                extraordinary results.
+                ما با امکانات به‌روز، راهنمایی حرفه‌ای و فضایی حامی، به اعضا کمک می‌کنیم از محدودیت‌هایشان عبور کنند و به نتایج فوق‌العاده برسند.
               </p>
             </div>
           </div>
@@ -72,7 +67,7 @@ function About() {
 
       <section className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Our Values</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">ارزش‌های ما</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {values.map((value) => (
               <div
@@ -92,10 +87,10 @@ function About() {
 
       <section className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Our Journey</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">مسیر ما</h2>
           <div className="max-w-4xl mx-auto">
             <div className="relative">
-              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-orange-500/30 hidden md:block" />
+              <div className="absolute right-8 top-0 bottom-0 w-0.5 bg-orange-500/30 hidden md:block" />
               <div className="space-y-12">
                 {history.map((milestone) => (
                   <div key={milestone.year} className="relative flex items-start gap-6">
@@ -123,9 +118,9 @@ function About() {
 
       <section className="py-20 bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-4 text-center">Expert Trainers</h2>
+          <h2 className="text-4xl font-bold text-white mb-4 text-center">مربیان حرفه‌ای</h2>
           <p className="text-xl text-gray-300 mb-12 text-center max-w-2xl mx-auto">
-            Meet our certified professionals dedicated to your success
+            با مربیان متخصصی آشنا شوید که برای موفقیت شما تلاش می‌کنند
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-8">
             {trainers.map((trainer, index) => {
@@ -152,7 +147,7 @@ function About() {
                     <h3 className="text-xl font-bold text-white mb-2">{trainer.name}</h3>
                     <p className="text-orange-500 mb-1 font-semibold">{trainer.role}</p>
                     <p className="text-gray-400 text-sm mb-3">{trainer.specialization}</p>
-                    <p className="text-gray-500 text-xs">{trainer.experience} experience</p>
+                    <p className="text-gray-500 text-xs">سابقه: {trainer.experience}</p>
                   </div>
                   <p className="text-gray-300 text-sm leading-relaxed mb-4 text-center">
                     {trainer.bio}

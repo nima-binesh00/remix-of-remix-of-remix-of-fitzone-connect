@@ -9,28 +9,28 @@ export function ContactForm() {
     >
       <div>
         <label htmlFor="name" className="block text-white font-semibold mb-2">
-          Full Name
+          نام و نام خانوادگی
         </label>
-        <input type="text" id="name" name="name" required className={inputClass} placeholder="John Doe" />
+        <input type="text" id="name" name="name" required className={inputClass} placeholder="مثلاً علی محمدی" />
       </div>
 
       <div>
         <label htmlFor="email" className="block text-white font-semibold mb-2">
-          Email Address
+          ایمیل
         </label>
-        <input type="email" id="email" name="email" required className={inputClass} placeholder="john@example.com" />
+        <input type="email" id="email" name="email" required className={inputClass} placeholder="example@email.com" dir="ltr" />
       </div>
 
       <div>
         <label htmlFor="phone" className="block text-white font-semibold mb-2">
-          Phone Number
+          شماره تماس
         </label>
-        <input type="tel" id="phone" name="phone" className={inputClass} placeholder="+1 (555) 123-4567" />
+        <input type="tel" id="phone" name="phone" className={inputClass} placeholder="۰۹۱۲۳۴۵۶۷۸۹" />
       </div>
 
       <div>
         <label htmlFor="message" className="block text-white font-semibold mb-2">
-          Message
+          پیام شما
         </label>
         <textarea
           id="message"
@@ -38,7 +38,7 @@ export function ContactForm() {
           rows={5}
           required
           className={`${inputClass} resize-none`}
-          placeholder="Tell us about your fitness goals..."
+          placeholder="درباره اهداف ورزشی‌تان برای ما بنویسید..."
         />
       </div>
 
@@ -46,7 +46,7 @@ export function ContactForm() {
         type="submit"
         className="w-full bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 flex items-center justify-center gap-3"
       >
-        Send Message
+        ارسال پیام
         <i className="ri-send-plane-line" />
       </button>
     </form>

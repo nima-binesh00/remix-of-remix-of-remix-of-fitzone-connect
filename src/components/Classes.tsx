@@ -6,9 +6,9 @@ export function Classes() {
     <section id="classes" className="py-20 bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Classes</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">کلاس‌های ما</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Find the perfect workout for your fitness level and goals
+            تمرین مناسب سطح و هدف خود را پیدا کنید
           </p>
         </div>
 
@@ -34,8 +34,8 @@ export function Classes() {
                   to="/contact"
                   className="text-orange-500 hover:text-orange-400 font-semibold flex items-center gap-2"
                 >
-                  Book Now
-                  <i className="ri-arrow-right-line" />
+                  رزرو کلاس
+                  <i className="ri-arrow-left-line" />
                 </Link>
               </div>
             </div>
@@ -47,8 +47,8 @@ export function Classes() {
             to="/classes"
             className="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105"
           >
-            View All Classes
-            <i className="ri-arrow-right-line" />
+            مشاهده همه کلاس‌ها
+            <i className="ri-arrow-left-line" />
           </Link>
         </div>
       </div>

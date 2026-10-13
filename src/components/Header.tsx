@@ -32,14 +32,14 @@ export function Header() {
               to="/contact"
               className="bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold transition-all duration-200 inline-flex items-center justify-center gap-2 px-6 py-2.5"
             >
-              Join Now
-              <i className="ri-arrow-right-line" />
+              ثبت‌نام
+              <i className="ri-arrow-left-line" />
             </Link>
           </div>
 
           <button
             className="md:hidden text-white p-2 flex items-center justify-center"
-            aria-label="Toggle menu"
+            aria-label="باز و بسته کردن منو"
             onClick={() => setOpen((v) => !v)}
           >
             <i className={`${open ? "ri-close-line" : "ri-menu-line"} text-2xl`} />
@@ -63,8 +63,8 @@ export function Header() {
               onClick={() => setOpen(false)}
               className="flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg text-center font-semibold transition-all duration-200 mt-2 shadow-md hover:shadow-lg"
             >
-              Join Now
-              <i className="ri-arrow-right-line" />
+              ثبت‌نام
+              <i className="ri-arrow-left-line" />
             </Link>
           </div>
         )}

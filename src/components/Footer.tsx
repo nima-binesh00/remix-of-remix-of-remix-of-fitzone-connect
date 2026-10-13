@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { siteData, navigation, socialLinks, contactInfo } from "@/data/siteData";
+import { siteData, navigation, socialLinks, contactInfo, toFaDigits } from "@/data/siteData";
 
 export function Footer() {
   return (
@@ -26,7 +26,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">دسترسی سریع</h4>
             <ul className="space-y-2">
               {navigation.map((item) => (
                 <li key={item.href}>
@@ -42,7 +42,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">تماس با ما</h4>
             <ul className="space-y-4 text-gray-400">
               {contactInfo.slice(0, 3).map((info) => (
                 <li key={info.title} className="flex items-start gap-3">
@@ -63,22 +63,22 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Newsletter</h4>
-            <p className="text-gray-400 mb-4">Subscribe to get fitness tips and updates</p>
+            <h4 className="text-lg font-semibold text-white mb-4">خبرنامه</h4>
+            <p className="text-gray-400 mb-4">برای دریافت نکات ورزشی و اخبار باشگاه عضو شوید</p>
             <form
               className="flex flex-col space-y-2"
               onSubmit={(e) => e.preventDefault()}
             >
               <input
                 type="email"
-                placeholder="Your email"
+                placeholder="ایمیل شما"
                 className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-orange-500"
               />
               <button
                 type="submit"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
               >
-                Subscribe
+                عضویت
               </button>
             </form>
           </div>
@@ -86,7 +86,7 @@ export function Footer() {
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-gray-400">
           <p>
-            &copy; {new Date().getFullYear()} {siteData.name}. All rights reserved.
+            &copy; {toFaDigits(1405)} {siteData.name}. تمامی حقوق محفوظ است.
           </p>
         </div>
       </div>

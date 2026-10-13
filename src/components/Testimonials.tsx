@@ -5,9 +5,9 @@ export function Testimonials() {
     <section id="testimonials" className="py-20 bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">What Our Members Say</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">نظر اعضای ما</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Real stories from real people achieving their fitness goals
+            تجربه واقعی کسانی که به اهداف ورزشی‌شان رسیده‌اند
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export function Testimonials() {
                 ))}
               </div>
               <p className="text-gray-300 mb-6 italic leading-relaxed">
-                "{testimonial.content}"
+                «{testimonial.content}»
               </p>
               <div className="pt-4 border-t border-slate-700">
                 <div className="font-bold text-white mb-1">{testimonial.name}</div>
