@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "6052046a-b076-437a-b8f1-83f8c04f890a",
-  "project_id": "f9cf4d1d-512c-4f5e-b46b-87fcbef70e43",
-  "url": "/__l5e/assets-v1/6052046a-b076-437a-b8f1-83f8c04f890a/class-cardio.jpg",
-  "r2_key": "a/v1/f9cf4d1d-512c-4f5e-b46b-87fcbef70e43/6052046a-b076-437a-b8f1-83f8c04f890a/class-cardio.jpg",
-  "original_filename": "class-cardio.jpg",
-  "size": 125725,
   "content_type": "image/jpeg",
-  "created_at": "2026-10-13T14:32:37Z"
+  "created_at": "2026-10-13T14:32:37Z",
+  "original_filename": "class-cardio.jpg",
+  "project_id": "e3483dd5-13c7-4ecc-83a4-1a929f971aa3",
+  "r2_key": "a/v1/e3483dd5-13c7-4ecc-83a4-1a929f971aa3/6052046a-b076-437a-b8f1-83f8c04f890a/class-cardio.jpg",
+  "size": 125725,
+  "url": "/__l5e/assets-v1/6052046a-b076-437a-b8f1-83f8c04f890a/class-cardio.jpg",
+  "version": 1
 }

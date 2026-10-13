@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "f1b7272a-7044-49a5-8be0-b4d8d9052180",
-  "project_id": "f9cf4d1d-512c-4f5e-b46b-87fcbef70e43",
-  "url": "/__l5e/assets-v1/f1b7272a-7044-49a5-8be0-b4d8d9052180/trainer-hamed.jpg",
-  "r2_key": "a/v1/f9cf4d1d-512c-4f5e-b46b-87fcbef70e43/f1b7272a-7044-49a5-8be0-b4d8d9052180/trainer-hamed.jpg",
-  "original_filename": "trainer-hamed.jpg",
-  "size": 76135,
   "content_type": "image/jpeg",
-  "created_at": "2026-10-13T14:32:49Z"
+  "created_at": "2026-10-13T14:32:49Z",
+  "original_filename": "trainer-hamed.jpg",
+  "project_id": "e3483dd5-13c7-4ecc-83a4-1a929f971aa3",
+  "r2_key": "a/v1/e3483dd5-13c7-4ecc-83a4-1a929f971aa3/f1b7272a-7044-49a5-8be0-b4d8d9052180/trainer-hamed.jpg",
+  "size": 76135,
+  "url": "/__l5e/assets-v1/f1b7272a-7044-49a5-8be0-b4d8d9052180/trainer-hamed.jpg",
+  "version": 1
 }

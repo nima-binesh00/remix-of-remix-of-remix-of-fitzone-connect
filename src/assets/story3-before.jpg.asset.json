@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "76eadb6e-d5f2-470d-8739-ae40e6e1b17d",
-  "project_id": "f9cf4d1d-512c-4f5e-b46b-87fcbef70e43",
-  "url": "/__l5e/assets-v1/76eadb6e-d5f2-470d-8739-ae40e6e1b17d/story3-before.jpg",
-  "r2_key": "a/v1/f9cf4d1d-512c-4f5e-b46b-87fcbef70e43/76eadb6e-d5f2-470d-8739-ae40e6e1b17d/story3-before.jpg",
-  "original_filename": "story3-before.jpg",
-  "size": 92113,
   "content_type": "image/jpeg",
-  "created_at": "2026-10-13T14:32:45Z"
+  "created_at": "2026-10-13T14:32:45Z",
+  "original_filename": "story3-before.jpg",
+  "project_id": "e3483dd5-13c7-4ecc-83a4-1a929f971aa3",
+  "r2_key": "a/v1/e3483dd5-13c7-4ecc-83a4-1a929f971aa3/76eadb6e-d5f2-470d-8739-ae40e6e1b17d/story3-before.jpg",
+  "size": 92113,
+  "url": "/__l5e/assets-v1/76eadb6e-d5f2-470d-8739-ae40e6e1b17d/story3-before.jpg",
+  "version": 1
 }
