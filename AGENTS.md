@@ -15,3 +15,5 @@
 - Site content is centralized in src/data/siteData.ts; edit copy, prices, schedules and trainer data there rather than in components.
 - Times in siteData are stored as "H:MM AM/PM" (for sorting) and displayed via faTime() with Persian digits.
 - Week schedule starts on Saturday (Persian week order) in fullSchedule.
+
+- Serve site images through Lovable Assets JSON pointers and use their `.url` values so preview and published pages share stable media paths.
