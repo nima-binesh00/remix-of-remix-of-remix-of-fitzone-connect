@@ -67,6 +67,14 @@
   --border: oklch(0.372 0.044 257.287); /* slate-700 */
   --input: oklch(0.372 0.044 257.287);
   --ring: oklch(0.705 0.213 47.604);
+  --sidebar: oklch(0.279 0.041 260.031);
+  --sidebar-foreground: oklch(1 0 0);
+  --sidebar-primary: oklch(0.705 0.213 47.604);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.372 0.044 257.287);
+  --sidebar-accent-foreground: oklch(1 0 0);
+  --sidebar-border: oklch(0.372 0.044 257.287);
+  --sidebar-ring: oklch(0.705 0.213 47.604);
 }
 
 @layer base {
