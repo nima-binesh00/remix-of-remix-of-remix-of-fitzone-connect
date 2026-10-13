@@ -5,9 +5,9 @@ export function Statistics() {
     <section id="statistics" className="py-20 bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">By The Numbers</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">فیت‌زون در یک نگاه</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Our commitment to excellence shows in every metric
+            تعهد ما به کیفیت را در اعداد ببینید
           </p>
         </div>
 

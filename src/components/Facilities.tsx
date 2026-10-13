@@ -5,9 +5,9 @@ export function Facilities() {
     <section id="facilities" className="py-20 bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Facilities</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">امکانات باشگاه</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            World-class equipment and spaces designed for your success
+            تجهیزات و فضاهایی در سطح جهانی برای موفقیت شما
           </p>
         </div>
 

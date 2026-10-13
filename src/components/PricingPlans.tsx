@@ -7,9 +7,9 @@ export function PricingPlans({ showHeading = true }: { showHeading?: boolean }) 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {showHeading && (
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Membership Plans</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">پلن‌های عضویت</h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Choose the plan that fits your fitness journey
+              پلنی را انتخاب کنید که با مسیر ورزشی‌تان جور است
             </p>
           </div>
         )}
@@ -25,7 +25,7 @@ export function PricingPlans({ showHeading = true }: { showHeading?: boolean }) 
             >
               {plan.popular && (
                 <div className="bg-orange-500 text-white text-sm font-bold px-4 py-1 rounded-full inline-block mb-4">
-                  Most Popular
+                  محبوب‌ترین
                 </div>
               )}
               <h3 className="text-2xl font-bold text-white mb-2">{plan.name}</h3>
@@ -49,8 +49,8 @@ export function PricingPlans({ showHeading = true }: { showHeading?: boolean }) 
                     : "bg-slate-800 hover:bg-slate-700 text-white border border-slate-700"
                 }`}
               >
-                Get Started
-                <i className="ri-arrow-right-line" />
+                شروع کنید
+                <i className="ri-arrow-left-line" />
               </Link>
             </div>
           ))}

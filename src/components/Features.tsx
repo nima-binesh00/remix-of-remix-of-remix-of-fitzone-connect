@@ -5,9 +5,9 @@ export function Features() {
     <section id="features" className="py-20 bg-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Why Choose Us</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">چرا فیت‌زون؟</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Everything you need to achieve your fitness goals in one place
+            هر آنچه برای رسیدن به اهداف ورزشی‌تان نیاز دارید، یک‌جا
           </p>
         </div>
 

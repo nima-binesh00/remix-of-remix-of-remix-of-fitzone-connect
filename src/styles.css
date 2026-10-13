@@ -42,8 +42,8 @@
 }
 
 @theme {
-  --font-family-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-family-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-family-heading: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --font-family-body: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
