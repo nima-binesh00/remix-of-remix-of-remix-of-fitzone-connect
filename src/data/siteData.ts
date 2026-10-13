@@ -307,7 +307,7 @@ export const trainers = [
     specialization: "تمرینات قدرتی و تغذیه",
     experience: "بیش از ۱۰ سال",
     bio: "رضا متخصص قدرت و آمادگی جسمانی است و بیش از یک دهه به ورزشکاران و علاقه‌مندان کمک کرده به اهدافشان برسند. تخصص او تمرینات قدرتی، پاورلیفتینگ و مربیگری تغذیه است.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&q=80",
+    image: trainerReza,
     certifications: ["CSCS", "NASM-CPT", "متخصص تغذیه"],
   },
   {
