@@ -5,7 +5,9 @@ export const toFaDigits = (value: string | number) =>
 
 export const faTime = (time: string) => {
   const [hm = "", period] = time.split(" ");
-  const label = period === "AM" ? "صبح" : (parseInt(hm) >= 12 || parseInt(hm) < 5) && period === "PM" && parseInt(hm) === 12 ? "ظهر" : period === "PM" && parseInt(hm) < 5 ? "بعدازظهر" : "عصر";
+  const h = parseInt(hm);
+  const label =
+    period === "AM" ? "صبح" : h === 12 ? "ظهر" : h < 5 ? "بعدازظهر" : h < 7 ? "عصر" : "شب";
   return `${toFaDigits(hm)} ${label}`;
 };
 
