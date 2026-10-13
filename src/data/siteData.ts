@@ -92,7 +92,7 @@ export const classes = [
     detailedDescription: "در این کلاس، فعالیت‌های بسیار شدید با استراحت‌های کوتاه ترکیب می‌شوند تا بیشترین کالری را بسوزانید و آمادگی قلبی‌عروقی‌تان بالا برود. انتخابی عالی برای کسانی که می‌خواهند سریع چربی بسوزانند و استقامت بسازند.",
     duration: "۴۵ دقیقه",
     difficulty: "پیشرفته",
-    image: "classHiit",
+    image: classHiit,
     benefits: ["سوزاندن تا ۶۰۰ کالری", "تقویت قلب و عروق", "افزایش استقامت", "تمرین کوتاه و مؤثر"],
     trainer: "علی رضایی",
     whatToExpect: "حرکات پویا، استراحت‌های کوتاه و فضایی پرانرژی",
@@ -103,7 +103,7 @@ export const classes = [
     detailedDescription: "در کلاس یوگا، حرکات سنتی با روش‌های امروزی ترکیب می‌شوند تا تعادل بدن بهتر شود، استرس کم شود و تحرک مفاصل افزایش یابد. مناسب همه سطوح، از مبتدی تا حرفه‌ای.",
     duration: "۶۰ دقیقه",
     difficulty: "همه سطوح",
-    image: "classYoga",
+    image: classYoga,
     benefits: ["افزایش انعطاف", "کاهش استرس", "بهبود تعادل", "تمرکز و آرامش ذهن"],
     trainer: "سارا محمدی",
     whatToExpect: "کشش‌های ملایم، تمرین تنفس، مدیتیشن و فضایی آرام",
@@ -114,7 +114,7 @@ export const classes = [
     detailedDescription: "با برنامه جامع تمرینات قدرتی، عضلات خود را بسازید و قوی‌تر شوید. مربیان ما فرم صحیح حرکات را با وزنه آزاد، دستگاه و وزن بدن به شما آموزش می‌دهند. بهترین انتخاب برای اندامی قوی و خوش‌فرم.",
     duration: "۶۰ دقیقه",
     difficulty: "متوسط",
-    image: "classStrength",
+    image: classStrength,
     benefits: ["افزایش حجم عضلات", "افزایش قدرت", "تقویت استخوان‌ها", "بالا رفتن سوخت‌وساز"],
     trainer: "رضا کریمی",
     whatToExpect: "افزایش تدریجی وزنه، اصلاح فرم حرکات و راهنمایی اختصاصی",
@@ -125,7 +125,7 @@ export const classes = [
     detailedDescription: "با ترکیبی از دویدن، پرش و حرکات ریتمیک، ضربان قلبتان را بالا ببرید. این کلاس استقامت شما را بیشتر می‌کند، به سلامت قلب کمک می‌کند و در کاهش وزن مؤثر است.",
     duration: "۴۵ دقیقه",
     difficulty: "همه سطوح",
-    image: "classCardio",
+    image: classCardio,
     benefits: ["سلامت قلب", "کالری‌سوزی", "افزایش استقامت", "انرژی بیشتر در طول روز"],
     trainer: "علی رضایی",
     whatToExpect: "موسیقی پرانرژی، حرکات متنوع و جمعی همراه",
@@ -136,7 +136,7 @@ export const classes = [
     detailedDescription: "با حرکات کنترل‌شده پیلاتس، عضلات عمقی شکم و کمر را تقویت کنید و وضعیت بدنی خود را بهبود دهید. مناسب برای توان‌بخشی و ساختن عضلاتی کشیده و فرم‌گرفته.",
     duration: "۵۰ دقیقه",
     difficulty: "همه سطوح",
-    image: "classPilates",
+    image: classPilates,
     benefits: ["تقویت عضلات مرکزی", "اصلاح فرم بدن", "افزایش انعطاف", "کاهش کمردرد"],
     trainer: "سارا محمدی",
     whatToExpect: "حرکات کنترل‌شده، تمرکز بر فرم صحیح و هماهنگی ذهن و بدن",
@@ -147,7 +147,7 @@ export const classes = [
     detailedDescription: "کراس‌فیت ترکیبی از وزنه‌برداری، ژیمناستیک و تمرینات هوازی است و هر جلسه با جلسه قبل فرق دارد. قدرت، استقامت و اراده خود را به مرزهای جدید برسانید.",
     duration: "۶۰ دقیقه",
     difficulty: "پیشرفته",
-    image: "classHiit",
+    image: classHiit,
     benefits: ["قدرت کاربردی", "آمادگی جسمانی کامل", "چالش با خود", "همراهی با جمع"],
     trainer: "رضا کریمی",
     whatToExpect: "تمرینات متنوع، شدت بالا، جمعی حامی و پیشرفت قابل اندازه‌گیری",
@@ -185,12 +185,12 @@ export const testimonials = [
 ];
 
 export const facilities = [
-  { title: "سالن کاردیو", description: "تردمیل، الپتیکال و دوچرخه‌های به‌روز", image: "classCardio" },
-  { title: "سالن بدنسازی", description: "مجموعه کامل وزنه‌های آزاد و دستگاه‌ها", image: "classStrength" },
-  { title: "استودیوی کلاس گروهی", description: "فضایی بزرگ برای یوگا، هیت و کلاس‌های دیگر", image: "classYoga" },
-  { title: "رختکن", description: "رختکن تمیز و مدرن همراه با دوش", image: "classPilates" },
-  { title: "تمرینات فانکشنال", description: "تی‌آر‌ایکس، طناب نبرد و تجهیزات کاربردی", image: "classHiit" },
-  { title: "بخش ریکاوری", description: "فضای کشش و فوم رولر برای بازیابی بدن", image: "classCardio" },
+  { title: "سالن کاردیو", description: "تردمیل، الپتیکال و دوچرخه‌های به‌روز", image: classCardio },
+  { title: "سالن بدنسازی", description: "مجموعه کامل وزنه‌های آزاد و دستگاه‌ها", image: classStrength },
+  { title: "استودیوی کلاس گروهی", description: "فضایی بزرگ برای یوگا، هیت و کلاس‌های دیگر", image: classYoga },
+  { title: "رختکن", description: "رختکن تمیز و مدرن همراه با دوش", image: classPilates },
+  { title: "تمرینات فانکشنال", description: "تی‌آر‌ایکس، طناب نبرد و تجهیزات کاربردی", image: classHiit },
+  { title: "بخش ریکاوری", description: "فضای کشش و فوم رولر برای بازیابی بدن", image: classCardio },
 ];
 
 export const faqs = [
@@ -230,8 +230,8 @@ export const successStories = [
     duration: "۸ ماه",
     result: "۲۰ کیلو کاهش وزن",
     story: "اولش شک داشتم، اما فیت‌زون زندگی‌ام را عوض کرد. مربی‌ها و هم‌باشگاهی‌ها همیشه انگیزه‌ام را بالا نگه داشتند. هیچ‌وقت این‌قدر حالم خوب نبوده!",
-    beforeImage: "story1Before",
-    afterImage: "story1After",
+    beforeImage: story1Before,
+    afterImage: story1After,
   },
   {
     name: "محمد صادقی",
@@ -239,8 +239,8 @@ export const successStories = [
     duration: "۶ ماه",
     result: "۹ کیلو افزایش عضله",
     story: "برنامه تمرین قدرتی و مشاوره تغذیه کمکم کرد به اندامی برسم که همیشه می‌خواستم. مربی‌ها واقعاً حرفه‌ای هستند.",
-    beforeImage: "story2Before",
-    afterImage: "story2After",
+    beforeImage: story2Before,
+    afterImage: story2After,
   },
   {
     name: "لیلا نوری",
@@ -248,8 +248,8 @@ export const successStories = [
     duration: "۱ سال",
     result: "اولین ماراتن کامل",
     story: "از کسی که اصلاً نمی‌دوید تا تمام کردن یک ماراتن؛ برنامه‌های کاردیو و کلاس‌های گروهی فیت‌زون استقامت و اعتمادبه‌نفس لازم را به من داد.",
-    beforeImage: "story3Before",
-    afterImage: "story1Before",
+    beforeImage: story3Before,
+    afterImage: story1Before,
   },
 ];
 
@@ -316,7 +316,7 @@ export const trainers = [
     specialization: "یوگا، پیلاتس و سلامت کل‌نگر",
     experience: "بیش از ۸ سال",
     bio: "سارا مربی رسمی یوگا و پیلاتس است و در چند سبک یوگا آموزش دیده. او روش‌های سنتی و نوین را ترکیب می‌کند تا اعضا به تعادل، انعطاف و آرامش برسند.",
-    image: "trainerSara",
+    image: trainerSara,
     certifications: ["RYT-500", "مدرک پیلاتس", "مربی مدیتیشن"],
   },
   {
@@ -325,7 +325,7 @@ export const trainers = [
     specialization: "تمرینات پرشدت و عملکرد ورزشی",
     experience: "بیش از ۷ سال",
     bio: "علی در تمرینات اینتروال پرشدت و بهبود عملکرد ورزشی تخصص دارد. کلاس‌های پرانرژی او اعضا را به مرزهای تازه می‌رساند و در عین حال ایمنی و فرم صحیح را حفظ می‌کند.",
-    image: "trainerSara",
+    image: trainerSara,
     certifications: ["ACE-CPT", "متخصص HIIT", "مربی عملکرد ورزشی"],
   },
   {
@@ -334,7 +334,7 @@ export const trainers = [
     specialization: "کاردیو، ایروبیک و زومبا",
     experience: "بیش از ۵ سال",
     bio: "نازنین به هر کلاس انرژی و شادی می‌آورد. با سابقه رقص و ورزش، تمرینات هوازی جذابی طراحی می‌کند که ورزش را لذت‌بخش می‌کند.",
-    image: "trainerNazanin",
+    image: trainerNazanin,
     certifications: ["مدرک زومبا", "مربی ایروبیک", "ACE-CPT"],
   },
   {
@@ -343,7 +343,7 @@ export const trainers = [
     specialization: "کراس‌فیت و حرکات فانکشنال",
     experience: "بیش از ۶ سال",
     bio: "حامد مربی سطح ۲ کراس‌فیت است و به تمرینات کاربردی علاقه زیادی دارد. او با تمرینات متنوع و پرشدت به اعضا کمک می‌کند قوی‌تر و چابک‌تر شوند.",
-    image: "trainerHamed",
+    image: trainerHamed,
     certifications: ["CrossFit Level 2", "متخصص حرکات فانکشنال", "مربی وزنه‌برداری"],
   },
 ];
