@@ -1,26 +1,48 @@
 // Persian (fa-IR) site content. Times are stored as "H:MM AM/PM" for sorting and shown via faTime().
 
-import classHiit from "@/assets/class-hiit.jpg";
-import classYoga from "@/assets/class-yoga.jpg";
-import classStrength from "@/assets/class-strength.jpg";
-import classCardio from "@/assets/class-cardio.jpg";
-import classPilates from "@/assets/class-pilates.jpg";
-import classCrossfit from "@/assets/class-crossfit.jpg";
-import facilityStudio from "@/assets/facility-studio.jpg";
-import facilityLocker from "@/assets/facility-locker.jpg";
-import facilityFunctional from "@/assets/facility-functional.jpg";
-import facilityRecovery from "@/assets/facility-recovery.jpg";
-import story1Before from "@/assets/story1-before.jpg";
-import story1After from "@/assets/story1-after.jpg";
-import story2Before from "@/assets/story2-before.jpg";
-import story2After from "@/assets/story2-after.jpg";
-import story3Before from "@/assets/story3-before.jpg";
-import story3After from "@/assets/story3-after.jpg";
-import trainerReza from "@/assets/trainer-reza.jpg";
-import trainerSara from "@/assets/trainer-sara.jpg";
-import trainerAli from "@/assets/trainer-ali.jpg";
-import trainerNazanin from "@/assets/trainer-nazanin.jpg";
-import trainerHamed from "@/assets/trainer-hamed.jpg";
+import classHiitAsset from "@/assets/class-hiit.jpg.asset.json";
+import classYogaAsset from "@/assets/class-yoga.jpg.asset.json";
+import classStrengthAsset from "@/assets/class-strength.jpg.asset.json";
+import classCardioAsset from "@/assets/class-cardio.jpg.asset.json";
+import classPilatesAsset from "@/assets/class-pilates.jpg.asset.json";
+import classCrossfitAsset from "@/assets/class-crossfit.jpg.asset.json";
+import facilityStudioAsset from "@/assets/facility-studio.jpg.asset.json";
+import facilityLockerAsset from "@/assets/facility-locker.jpg.asset.json";
+import facilityFunctionalAsset from "@/assets/facility-functional.jpg.asset.json";
+import facilityRecoveryAsset from "@/assets/facility-recovery.jpg.asset.json";
+import story1BeforeAsset from "@/assets/story1-before.jpg.asset.json";
+import story1AfterAsset from "@/assets/story1-after.jpg.asset.json";
+import story2BeforeAsset from "@/assets/story2-before.jpg.asset.json";
+import story2AfterAsset from "@/assets/story2-after.jpg.asset.json";
+import story3BeforeAsset from "@/assets/story3-before.jpg.asset.json";
+import story3AfterAsset from "@/assets/story3-after.jpg.asset.json";
+import trainerRezaAsset from "@/assets/trainer-reza.jpg.asset.json";
+import trainerSaraAsset from "@/assets/trainer-sara.jpg.asset.json";
+import trainerAliAsset from "@/assets/trainer-ali.jpg.asset.json";
+import trainerNazaninAsset from "@/assets/trainer-nazanin.jpg.asset.json";
+import trainerHamedAsset from "@/assets/trainer-hamed.jpg.asset.json";
+
+const classHiit = classHiitAsset.url;
+const classYoga = classYogaAsset.url;
+const classStrength = classStrengthAsset.url;
+const classCardio = classCardioAsset.url;
+const classPilates = classPilatesAsset.url;
+const classCrossfit = classCrossfitAsset.url;
+const facilityStudio = facilityStudioAsset.url;
+const facilityLocker = facilityLockerAsset.url;
+const facilityFunctional = facilityFunctionalAsset.url;
+const facilityRecovery = facilityRecoveryAsset.url;
+const story1Before = story1BeforeAsset.url;
+const story1After = story1AfterAsset.url;
+const story2Before = story2BeforeAsset.url;
+const story2After = story2AfterAsset.url;
+const story3Before = story3BeforeAsset.url;
+const story3After = story3AfterAsset.url;
+const trainerReza = trainerRezaAsset.url;
+const trainerSara = trainerSaraAsset.url;
+const trainerAli = trainerAliAsset.url;
+const trainerNazanin = trainerNazaninAsset.url;
+const trainerHamed = trainerHamedAsset.url;
 
 export const toFaDigits = (value: string | number) =>
   String(value).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[Number(d)]!);
@@ -147,7 +169,7 @@ export const classes = [
     detailedDescription: "کراس‌فیت ترکیبی از وزنه‌برداری، ژیمناستیک و تمرینات هوازی است و هر جلسه با جلسه قبل فرق دارد. قدرت، استقامت و اراده خود را به مرزهای جدید برسانید.",
     duration: "۶۰ دقیقه",
     difficulty: "پیشرفته",
-    image: classHiit,
+    image: classCrossfit,
     benefits: ["قدرت کاربردی", "آمادگی جسمانی کامل", "چالش با خود", "همراهی با جمع"],
     trainer: "رضا کریمی",
     whatToExpect: "تمرینات متنوع، شدت بالا، جمعی حامی و پیشرفت قابل اندازه‌گیری",
@@ -187,10 +209,10 @@ export const testimonials = [
 export const facilities = [
   { title: "سالن کاردیو", description: "تردمیل، الپتیکال و دوچرخه‌های به‌روز", image: classCardio },
   { title: "سالن بدنسازی", description: "مجموعه کامل وزنه‌های آزاد و دستگاه‌ها", image: classStrength },
-  { title: "استودیوی کلاس گروهی", description: "فضایی بزرگ برای یوگا، هیت و کلاس‌های دیگر", image: classYoga },
-  { title: "رختکن", description: "رختکن تمیز و مدرن همراه با دوش", image: classPilates },
-  { title: "تمرینات فانکشنال", description: "تی‌آر‌ایکس، طناب نبرد و تجهیزات کاربردی", image: classHiit },
-  { title: "بخش ریکاوری", description: "فضای کشش و فوم رولر برای بازیابی بدن", image: classCardio },
+  { title: "استودیوی کلاس گروهی", description: "فضایی بزرگ برای یوگا، هیت و کلاس‌های دیگر", image: facilityStudio },
+  { title: "رختکن", description: "رختکن تمیز و مدرن همراه با دوش", image: facilityLocker },
+  { title: "تمرینات فانکشنال", description: "تی‌آر‌ایکس، طناب نبرد و تجهیزات کاربردی", image: facilityFunctional },
+  { title: "بخش ریکاوری", description: "فضای کشش و فوم رولر برای بازیابی بدن", image: facilityRecovery },
 ];
 
 export const faqs = [
@@ -249,7 +271,7 @@ export const successStories = [
     result: "اولین ماراتن کامل",
     story: "از کسی که اصلاً نمی‌دوید تا تمام کردن یک ماراتن؛ برنامه‌های کاردیو و کلاس‌های گروهی فیت‌زون استقامت و اعتمادبه‌نفس لازم را به من داد.",
     beforeImage: story3Before,
-    afterImage: story1Before,
+    afterImage: story3After,
   },
 ];
 
@@ -325,7 +347,7 @@ export const trainers = [
     specialization: "تمرینات پرشدت و عملکرد ورزشی",
     experience: "بیش از ۷ سال",
     bio: "علی در تمرینات اینتروال پرشدت و بهبود عملکرد ورزشی تخصص دارد. کلاس‌های پرانرژی او اعضا را به مرزهای تازه می‌رساند و در عین حال ایمنی و فرم صحیح را حفظ می‌کند.",
-    image: trainerSara,
+    image: trainerAli,
     certifications: ["ACE-CPT", "متخصص HIIT", "مربی عملکرد ورزشی"],
   },
   {

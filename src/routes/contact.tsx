@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ContactForm } from "@/components/ContactForm";
 import { siteData, socialLinks, contactInfo } from "@/data/siteData";
-import mapImage from "@/assets/map.jpg";
+import mapImage from "@/assets/map.jpg.asset.json";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -178,7 +178,7 @@ function ContactPage() {
           <div className="max-w-5xl mx-auto bg-slate-800 p-8 rounded-xl border border-slate-700">
             <div className="aspect-video bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden relative">
               <img
-                src={mapImage}
+                src={mapImage.url}
                 alt="نقشه موقعیت باشگاه"
                 className="w-full h-full object-cover opacity-50"
                 loading="lazy"

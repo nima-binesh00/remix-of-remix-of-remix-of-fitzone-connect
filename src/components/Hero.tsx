@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { siteData } from "@/data/siteData";
-import heroImage from "@/assets/hero.jpg";
+import heroImage from "@/assets/hero.jpg.asset.json";
 
 export function Hero() {
   return (
@@ -62,7 +62,7 @@ export function Hero() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden bg-slate-800 border-2 border-slate-700 shadow-2xl">
                 <img
-                  src={heroImage}
+                  src={heroImage.url}
                   alt="تمرین در باشگاه"
                   className="w-full h-full object-cover"
                   loading="eager"
