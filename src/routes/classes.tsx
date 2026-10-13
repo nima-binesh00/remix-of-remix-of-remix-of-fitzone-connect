@@ -33,9 +33,9 @@ const sortedTimes = (() => {
   return Array.from(allTimes).sort((a, b) => {
     const timeA = a.replace(" AM", "").replace(" PM", "").split(":");
     const timeB = b.replace(" AM", "").replace(" PM", "").split(":");
-    const hourA = parseInt(timeA[0]) + (a.includes("PM") && timeA[0] !== "12" ? 12 : 0);
-    const hourB = parseInt(timeB[0]) + (b.includes("PM") && timeB[0] !== "12" ? 12 : 0);
-    return hourA - hourB || parseInt(timeA[1]) - parseInt(timeB[1]);
+    const hourA = parseInt(timeA[0] ?? "0") + (a.includes("PM") && timeA[0] !== "12" ? 12 : 0);
+    const hourB = parseInt(timeB[0] ?? "0") + (b.includes("PM") && timeB[0] !== "12" ? 12 : 0);
+    return hourA - hourB || parseInt(timeA[1] ?? "0") - parseInt(timeB[1] ?? "0");
   });
 })();
 
