@@ -86,7 +86,7 @@ export function Footer() {
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-gray-400">
           <p>
-            &copy; {new Date().getFullYear()} {siteData.name}. تمامی حقوق محفوظ است.
+            &copy; {toFaDigits(1405)} {siteData.name}. تمامی حقوق محفوظ است.
           </p>
         </div>
       </div>

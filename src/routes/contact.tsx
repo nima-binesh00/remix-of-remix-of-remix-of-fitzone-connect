@@ -6,10 +6,10 @@ import mapImage from "@/assets/map.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: `Contact Us - ${siteData.name}` },
-      { name: "description", content: "Get in touch with us to start your fitness journey" },
-      { property: "og:title", content: `Contact Us - ${siteData.name}` },
-      { property: "og:description", content: "Get in touch with us to start your fitness journey" },
+      { title: `تماس با ما | ${siteData.name}` },
+      { name: "description", content: "با باشگاه فیت‌زون در تماس باشید و مسیر ورزشی‌تان را شروع کنید" },
+      { property: "og:title", content: `تماس با ما | ${siteData.name}` },
+      { property: "og:description", content: "با باشگاه فیت‌زون در تماس باشید و مسیر ورزشی‌تان را شروع کنید" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -20,26 +20,26 @@ export const Route = createFileRoute("/contact")({
 const expectations = [
   {
     icon: "ri-user-search-line",
-    title: "Tour & Consultation",
-    description: "We'll give you a comprehensive tour of our facilities and discuss your fitness goals",
+    title: "بازدید و مشاوره",
+    description: "باشگاه را کامل به شما نشان می‌دهیم و درباره اهدافتان صحبت می‌کنیم",
   },
   {
     icon: "ri-group-line",
-    title: "Meet Our Team",
-    description: "Get introduced to our trainers and staff who will support you on your journey",
+    title: "آشنایی با تیم",
+    description: "با مربیان و کارکنانی آشنا می‌شوید که در این مسیر همراهتان هستند",
   },
   {
     icon: "ri-file-list-3-line",
-    title: "Membership Options",
-    description: "Explore our flexible membership plans designed to fit your lifestyle and budget",
+    title: "گزینه‌های عضویت",
+    description: "پلن‌های منعطف عضویت را متناسب با سبک زندگی و بودجه‌تان بررسی کنید",
   },
 ];
 
 const responseTimes = [
-  { label: "Email inquiries:", text: " We respond within 24 hours during business days" },
-  { label: "Phone calls:", text: " Available during staffed hours (5 AM - 11 PM)" },
-  { label: "Form submissions:", text: " Confirmation within 2 hours, full response within 24 hours" },
-  { label: "Urgent matters:", text: " Call us directly for immediate assistance" },
+  { label: "ایمیل:", text: " پاسخ در کمتر از ۲۴ ساعت در روزهای کاری" },
+  { label: "تلفن:", text: " پاسخگویی از ۵ صبح تا ۱۱ شب" },
+  { label: "فرم تماس:", text: " تأیید دریافت در ۲ ساعت و پاسخ کامل در ۲۴ ساعت" },
+  { label: "موارد فوری:", text: " لطفاً مستقیم تماس بگیرید" },
 ];
 
 function ContactPage() {
@@ -48,9 +48,9 @@ function ContactPage() {
       <section className="pt-32 pb-20 bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Contact Us</h1>
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">تماس با ما</h1>
             <p className="text-xl text-gray-300">
-              We're here to help you on your fitness journey. Get in touch today!
+              در مسیر ورزشی کنارتان هستیم. همین امروز با ما در تماس باشید!
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@ function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-8">Get In Touch</h2>
+              <h2 className="text-3xl font-bold text-white mb-8">راه‌های ارتباطی</h2>
               <div className="space-y-6">
                 {contactInfo.map((info) => (
                   <div key={info.title} className="flex items-start gap-4">
@@ -91,7 +91,7 @@ function ContactPage() {
               </div>
 
               <div className="mt-10">
-                <h3 className="text-xl font-semibold text-white mb-4">Follow Us</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">ما را دنبال کنید</h3>
                 <div className="flex space-x-4">
                   {socialLinks.map((social) => (
                     <a
@@ -119,10 +119,10 @@ function ContactPage() {
       <section className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-white mb-4 text-center">
-            What to Expect When You Visit
+            در اولین بازدید چه انتظاری داشته باشید؟
           </h2>
           <p className="text-xl text-gray-300 mb-12 text-center max-w-2xl mx-auto">
-            Your first visit is important to us. Here's what you can expect.
+            اولین بازدید شما برای ما مهم است.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
             {expectations.map((item) => (
@@ -150,9 +150,9 @@ function ContactPage() {
                   <i className="ri-time-line text-4xl text-orange-500" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-3">Response Time</h3>
+                  <h3 className="text-2xl font-bold text-white mb-3">زمان پاسخگویی</h3>
                   <p className="text-gray-300 mb-4 leading-relaxed">
-                    We're committed to getting back to you quickly. Here's what you can expect:
+                    ما متعهدیم سریع پاسخ بدهیم:
                   </p>
                   <ul className="space-y-3">
                     {responseTimes.map((item) => (
@@ -174,12 +174,12 @@ function ContactPage() {
 
       <section className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-12 text-center">Find Us</h2>
+          <h2 className="text-3xl font-bold text-white mb-12 text-center">موقعیت ما</h2>
           <div className="max-w-5xl mx-auto bg-slate-800 p-8 rounded-xl border border-slate-700">
             <div className="aspect-video bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden relative">
               <img
                 src={mapImage}
-                alt="Gym location map"
+                alt="نقشه موقعیت باشگاه"
                 className="w-full h-full object-cover opacity-50"
                 loading="lazy"
               />
@@ -187,7 +187,7 @@ function ContactPage() {
                 <div>
                   <i className="ri-map-pin-line text-5xl text-orange-500 mb-4" />
                   <p className="text-gray-300 text-lg">
-                    Map integration can be added here (Google Maps, etc.)
+                    به‌زودی نقشه موقعیت باشگاه اینجا قرار می‌گیرد
                   </p>
                 </div>
               </div>
