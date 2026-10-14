@@ -16,4 +16,5 @@
 - Times in siteData are stored as "H:MM AM/PM" (for sorting) and displayed via faTime() with Persian digits.
 - Week schedule starts on Saturday (Persian week order) in fullSchedule.
 
-- Serve site images through Lovable Assets JSON pointers and use their `.url` values so preview and published pages share stable media paths.
+- Site images are real files in public/images; the src/assets/*.asset.json pointers reference them by `/images/...` url so they work on any host (Lovable and Netlify).
+- netlify.toml builds with NITRO_PRESET=netlify (server pages run as a Netlify function); keep it when changing build config.
